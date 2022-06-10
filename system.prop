@@ -56,3 +56,9 @@ wifi.interface=wlan0
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Sparks OS 
+ro.spark.device.name=POCO X3 NFC
+ro.spark.group.url=https://t.me/Inuo02
+ro.spark.maintainer=AMINZ.
+ro.spark.maintainer.username=Inuo02
