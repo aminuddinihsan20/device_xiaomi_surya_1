@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from surya device
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common Evolution stuff.
+# Inherit some common sprak stuff.
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 PRODUCT_SOONG_NAMESPACES += \
@@ -42,3 +42,5 @@ PRODUCT_MODEL := POCO X3 NFC
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+SPARK_BUILD_TYPE := UNOFFICIAL
